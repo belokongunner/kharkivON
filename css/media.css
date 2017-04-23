@@ -1,0 +1,31 @@
+@media only all and (max-width: 950px){
+    .header-logo{
+        margin-bottom: 1.5em;
+    }
+    .main-line{
+        font-size: 1.5em;
+    }
+    .gerb{
+        display: none;
+    }
+    .search.pull-right{
+        width: 90%;
+        float: none!important;
+        margin: 17px auto 7px;
+    }
+    .search input{
+        font-size: 1.5em;
+        height: 40px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .search span{
+        top: auto;
+        bottom: 23px;
+    }
+    nav.pull-left{
+        float: none!important;
+        width: 100%;
+    }
+
+}

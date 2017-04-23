@@ -1,0 +1,32 @@
+.wrapper{
+    background-color: #fff;
+	margin: 0 auto;
+}
+html, body{
+    margin: 0 auto;
+}
+body{
+    background: #dfdfdf;
+	color: #000;
+    max-width: 1200px;
+    font-size: 14px;
+	/*font-size: 10px;
+	font-family: 'Calibri';
+	font-weight: lighter;
+	margin: 0 auto;*/
+}
+input[type="text"]:focus{
+    outline: none;
+}
+input::-webkit-input-placeholder {}
+input::-moz-input-placeholder {}
+textarea:-moz-placeholder {}
+textarea::-webkit-input-placeholder{
+	resize: none;
+}
+a{
+    text-decoration: none;
+}
+img, iframe{
+    max-width: 100%;
+}

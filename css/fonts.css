@@ -1,0 +1,48 @@
+/*KelsonSans*/
+@font-face {
+    font-family: "KelsonSans";
+    src: url("../fonts/KelsonSansRegular.eot");
+    src: url("../fonts/KelsonSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/KelsonSans-Regular1.woff") format("woff"),
+    url("../fonts/KelsonSans-Regular1.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*KelsonSans*/
+@font-face {
+    font-family: "KelsonSans";
+    src: url("../fonts/KelsonSansBold.eot");
+    src: url("../fonts/KelsonSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/KelsonSansBold.woff") format("woff"),
+    url("../fonts/KelsonSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+/*Play*/
+@font-face {
+    font-family: "Play";
+    src: url("../fonts/PlayRegular.eot");
+    src: url("../fonts/PlayRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PlayRegular.woff") format("woff"),
+    url("../fonts/PlayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*Play*/
+@font-face {
+    font-family: "Play";
+    src: url("../fonts/PlayBold.eot");
+    src: url("../fonts/PlayBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PlayBold.woff") format("woff"),
+    url("../fonts/PlayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+/*AA*/
+@font-face {
+    font-family: "AA";
+    src: url("../fonts/AA-BebasNeue.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
