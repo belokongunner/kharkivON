@@ -1,0 +1,101 @@
+.mx_vidkr_dver{
+    padding: 0;
+}
+
+
+.iv_main .mx_vidkr_dver .mx_vidkr_dver_info_stack{
+    padding: 0;
+    margin: 25px 0 30px;
+}
+.iv_main .mx_vidkr_dver .mx_vidkr_dver_info_stack .mx_vidkr_dver_info{
+    float: left;
+    padding: 0;
+}
+.iv_main .mx_vidkr_dver .mx_vidkr_dver_info_stack .mx_vidkr_dver_info h3{
+    font: bold 14px Fira Sans;
+    line-height: 1.2;
+    color: rgb(0,0,0);
+    margin: 3px 0;
+    text-align: right;
+    padding: 0;
+    padding-right: 6px;
+}
+.iv_main .mx_vidkr_dver .mx_vidkr_dver_info_stack .mx_vidkr_dver_info p{
+    font: 500 14px Fira Sans;
+    line-height: 1.2;
+    margin: 3px 0;
+    padding: 0;
+}
+@media (min-width: 992px){
+    .iv_main .mx_vidkr_dver .mx_vidkr_dver_info_stack .mx_vidkr_dver_info h3 {
+        width: 20%;
+    }
+}
+@media (min-width: 992px){
+    .iv_main .mx_vidkr_dver .mx_vidkr_dver_info_stack .mx_vidkr_dver_info:nth-of-type(4) p {
+        width: 77%;
+    }
+}
+@media (max-width: 470px){
+    .iv_main .mx_vidkr_dver .mx_vidkr_dver_info_stack .mx_vidkr_dver_info h3 {
+        width: 100%;
+        text-align: left;
+    }
+    .iv_main .mx_vidkr_dver .mx_vidkr_dver_info_stack .mx_vidkr_dver_info p {
+        width: 100%;
+    }
+}
+
+.mx_VUZ_info {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.mx_VUZ_info tr.mx_table_1r .mx_digit_header, .mx_VUZ_info tr.mx_table_2r .mx_digit_header {
+    font: 700 1.143em Fira Sans;
+    font-size: 12Pt;
+}
+tr.mx_table_1r td{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+tr.mx_table_2r td{
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+td.mx_VUZ_adress{
+    width: 45%;
+}
+td.mx_VUZ_dovidk, td.mx_VUZ_email, td.mx_VUZ_fax, td.mx_VUZ_www{
+    width: 24%;
+}
+td.mx_VUZ_adress .mx_digit_header{
+    text-transform: uppercase;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.mx_VUZ_info tr.mx_table_1r {
+    border-top: 3px solid rgb(239, 61, 49);
+}
+.mx_VUZ_info p{
+    padding: 2px;
+    font: 400 1em Fira Sans;
+}
+.mx_VUZ_info .mx_VUZ_adress p{
+    padding: 4px;
+}
+
+@media screen and (max-width: 619px) {
+    td.mx_VUZ_dovidk, td.mx_VUZ_email, td.mx_VUZ_fax, td.mx_VUZ_www {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .mx_VUZ_info tr.mx_table_1r .mx_digit_header, .mx_VUZ_info tr.mx_table_2r .mx_digit_header {
+        font-size: 14px;
+    }
+    .mx_VUZ_info p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,206 @@
+div.mx_spec_all h2{
+    border-top: 3px rgb(221,74,51) solid;
+    padding: 20px 0 12px 0;
+}
+
+
+.mx_spec_all {
+    margin-bottom: 45px;
+    margin-top: 60px;
+}
+div.mx_spec_cheks_wrap{
+    height: 100%;
+    padding-bottom: 25px;
+}
+
+table {
+    margin-top: 25px;
+    width: 100%;
+    background: transparent;
+    border-collapse: collapse;
+}
+
+input[type="checkbox"]{
+    display:none;
+}
+input[type="checkbox"] + label{
+    color: #444;
+    cursor: pointer;
+}
+input[type="checkbox"] + label::before{
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin: 0 15px 0 0;
+    background: #ffffff;
+    border: 1px rgb(168,168,168) solid;
+    vertical-align: baseline;
+}
+
+input[type="checkbox"]:checked + label::before {
+    background: rgb(221,74,51);
+}
+
+
+
+ul.mx_spec_checks{
+    list-style: none;
+}
+@media (min-width: 992px){
+    ul.mx_spec_checks{
+        width: 45%;
+    }
+}
+
+li.mx_has_children{
+    padding-bottom: 0;
+}
+li.mx_has_children ul{
+    list-style: none;
+    margin-left: 35px;
+    padding: 2px 0 0 0;
+}
+.mx_spec_cheks_wrap ul li{
+    padding: 4px;
+    font: 500 16px Fira Sans;
+}
+.mx_spec_cheks_wrap, .mx_spec_checks{
+    padding: 0;
+}
+
+table p{
+    font: 500 14px Fira Sans;
+}
+
+
+td.mx_table_nazva_kaf a {
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: rgb(239, 61, 49);
+    padding: 6px 15px 5px 15px;
+    float: right;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    font-family: "Fira Sans";
+}
+
+.mx_table_row td {
+    vertical-align: top;
+}
+
+.mx_table_nazva_fac {
+    padding: 15px 0 0 20px;
+}
+
+.mx_table_nazva_kaf {
+    padding: 15px 16px 15px 20px;
+}
+.mx_table_nazva_kaf {
+    width: 30%;
+}
+.mx_table_nazva_kaf p{
+    word-break: break-all;
+}
+.mx_table_nazva_fac p{
+    font: 500 16px Fira Sans;
+}
+
+.mx_table_row .mx_table_nazva {
+    width: 33%;
+    padding: 15px 0;
+}
+
+.mx_table_row .mx_table_logo {
+    width: 10%;
+    text-align: center;
+    vertical-align: middle;
+}
+.mx_table_row {
+    border-bottom: 1px solid #cac8c8;
+}
+.mx_prof_vnz tr.mx_table_header {
+    background-color: #f1f1f1;
+    border-bottom: 3px solid rgb(239, 61, 49);
+    height: 35px;
+}
+.iv_main .mx_prof_header h3 {
+
+}
+.iv_main .mx_prof_header p {
+
+}
+.mx_prof_vnz tr.mx_table_header td {
+    vertical-align: bottom;
+    padding-left: 20px;
+}
+.mx_table_row .mx_table_logo img {
+    width: 50px;
+    height: 50px;
+}
+.mx_table_row .mx_table_nazva p {
+    font: bold 16px Fira Sans;
+    color: #238cbb;
+}
+
+.mx_all_kaf .mx_table_logo{
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+a.mx_searchbutton_red{
+    background-color: rgb(221,74,51);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px 0;
+    display: inline-block;
+    margin: 5px 45px 5px 0;
+    font-size: 13.5pt;
+    max-width: 100%;
+    font-family: "Play";
+}
+@media (min-width: 768px) {
+    a.mx_searchbutton_red {
+        width: 31%;
+    }
+}
+@media (max-width: 780px){
+    .mx_table_row .mx_table_nazva{
+        padding-left: 10px;
+    }
+}
+@media (max-width: 560px){
+    .mx_table_row .mx_table_nazva{
+        padding-left: 20px;
+    }
+    .mx_table_row .mx_table_logo img {
+        width: 0;
+        height: 0;
+    }
+    .mx_table_row .mx_table_logo {
+        width: 0;
+    }
+}
+@media (max-width: 425px){
+    .mx_table_row .mx_table_nazva p {
+        font-size: 14px;
+    }
+    .mx_table_nazva_fac p {
+        font-size: 12px;
+    }
+    .mx_table_nazva_kaf p {
+        font-size: 12px;
+    }
+    .mx_table_row .mx_table_nazva, .mx_table_row .mx_table_nazva_fac, .mx_table_row .mx_table_nazva_kaf{
+        width: auto;
+        padding: 15px 6px;
+    }
+    .mx_prof_vnz tr.mx_table_header td {
+        text-align: center;
+        padding-left: 0;
+    }
+    .mx_prof_vnz tr.mx_table_header td p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,431 @@
+
+.iv_main .prof_header p {
+    font: 500 14px Fira Sans;
+}
+.iv_main .prof_header h2 {
+    margin-bottom: 10px;
+}
+
+.mx_VUZ_map h3{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.mx_spec_vnz h3{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    background: transparent;
+    border-collapse: collapse;
+}
+tr.mx_table_header{
+    background-color: #f1f1f1;
+    border-bottom: 3px solid rgb(239, 61, 49);
+    height: 35px;
+}
+.mx_table_row{
+    border-bottom: 1px solid #cac8c8;
+}
+
+td{
+    vertical-align: middle;
+}
+
+.mx_table_row .mx_table_logo{
+    width: 12%;
+    text-align: center;
+    vertical-align: middle;
+}
+.mx_table_row .mx_table_logo img{
+    width: 59%;
+}
+
+.mx_table_vnz_spec{
+    padding: 0 20px 0 10px;
+    width: 47%;
+}
+
+.mx_table_vnz_spec p.mx_first_p{
+    font: 700 18px Fira Sans;
+    color: #238cbb;
+    padding: 22px 0 0 0;
+}
+.mx_table_vnz_spec p.mx_second_p{
+    font: 500 14px Fira Sans;
+    color: #0c5b7c;
+    padding: 10px 0 7px 0;
+}
+
+.mx_table_vnz_spec p.mx_third_p{
+    font: 500 14px Fira Sans;
+    padding: 8px 0 10px 0;
+}
+
+.mx_table_protest{
+    width: 17%;
+    vertical-align: top;
+    padding-top: 22px;
+}
+.mx_protest{
+    width: 100%;
+    display: table;
+}
+.mx_protest p.mx_protest_num{
+    font: bold 18px Fira Sans;
+    width: 30%;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+.mx_protest p.mx_protest_lud{
+    font: 500 14px Fira Sans;
+    width: 70%;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+
+.mx_table_test_prof {
+    width: 20%;
+    vertical-align: top;
+    padding-top: 22px;
+}
+.mx_test_prof{
+    width: 100%;
+    display: table;
+}
+.mx_test_prof p.mx_test_prof_lud{
+    font: 500 14px Fira Sans;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    width: 60%;
+}
+.mx_test_prof a.mx_test_prof_but{
+    font: 400 14px Play;
+    background-color: #ef3d31;
+    color: #FFFFFF;
+    padding: 7px;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    width: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.iv_main .mx_tripplebutton {
+    background-color: #f1f1f1;
+    margin: 20px 0 40px 0;
+    padding: 8px 0;
+    text-align: center;
+}
+.iv_main .mx_tripplebutton a{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: #238cbb;
+    font-size: 18px;
+    font-family: "Play";
+    width: 270px;
+}
+
+.mx_button_wrap{
+    vertical-align: middle;
+    line-height: normal;
+    float: left;
+    width: 33%;
+}
+
+.iv_main .mx_tripplebutton a.mx_tripplebutton_red {
+    background-color: #ef3d31;
+}
+
+.mx_all_nav{
+    width: 100%;
+    margin: 35px 0 40px 0;
+    text-align: center;
+    font: bold 12pt Play;
+}
+
+.mx_all_nav a:nth-child(2) {
+    margin-left: 15px;
+}
+.mx_all_nav .page_num {
+    padding: 10px 15px;
+    background-color: #e2e2e2;
+    color: #2f2f2f;
+    border: none;
+    margin-right: 10px;
+}
+@media (max-width: 370px) {
+    .mx_all_nav a:nth-child(2) {
+        margin-left: 0;
+    }
+    .mx_all_nav .page_num {
+        margin-right: 0;
+    }
+}
+.mx_all_nav .page_num--active {
+    background-color: #238cbb;
+    color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width: 950px) {
+
+    .mx_table_row .mx_table_logo{
+        width: 12%;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .mx_table_row .mx_table_logo img{
+        width: 59%;
+    }
+
+    .mx_table_vnz_spec{
+        padding-left: 10px;
+        width: 47%;
+    }
+
+    .mx_table_vnz_spec p.mx_first_p{
+        font: 700 18px Fira Sans;
+        color: #238cbb;
+        padding: 22px 0 0 0;
+    }
+    .mx_table_vnz_spec p.mx_second_p{
+        font: 500 14px Fira Sans;
+        color: #0c5b7c;
+        padding: 10px 0 7px 0;
+    }
+
+    .mx_table_vnz_spec p.mx_third_p{
+        font: 500 14px Fira Sans;
+        padding: 8px 0 10px 0;
+    }
+
+    .mx_table_protest{
+        width: 17%;
+        vertical-align: top;
+        padding-top: 22px;
+    }
+    .mx_protest{
+        width: 100%;
+        display: table;
+        text-align: center;
+    }
+    .mx_protest p.mx_protest_num{
+        font: bold 18px Fira Sans;
+        width: 100%;
+        display: inline-block;
+        line-height: normal;
+        vertical-align: middle;
+        padding-right: 0;
+    }
+    .mx_protest p.mx_protest_lud{
+        font: 500 14px Fira Sans;
+        width: 100%;
+        display: inline-block;
+        line-height: normal;
+        vertical-align: middle;
+    }
+
+
+    .mx_table_test_prof {
+        width: 20%;
+        vertical-align: top;
+        padding-top: 22px;
+    }
+    .mx_test_prof{
+        width: 100%;
+        display: table;
+        text-align: center;
+    }
+    .mx_test_prof p.mx_test_prof_lud{
+        font: 500 14px Fira Sans;
+        width: 100%;
+        display: inline-block;
+        line-height: normal;
+        vertical-align: middle;
+        padding: 0 24px 0 15px;
+    }
+    .mx_test_prof a.mx_test_prof_but{
+        font: 400 14px Play;
+        background-color: #ef3d31;
+        color: #FFFFFF;
+        padding: 7px;
+        display: inline-block;
+        line-height: normal;
+        vertical-align: middle;
+        width: 54%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .iv_main .mx_tripplebutton {
+        background-color: #f1f1f1;
+        margin: 20px 0 40px 0;
+        padding: 8px 0;
+        text-align: center;
+    }
+
+    .iv_main .mx_tripplebutton a {
+        display: inline-block;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 15px;
+        background-color: #238cbb;
+        font-size: 18px;
+        font-family: "Play";
+        width: 90%;
+    }
+
+    .mx_button_wrap {
+        vertical-align: middle;
+        line-height: normal;
+        float: left;
+        width: 100%;
+        padding: 4px 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .mx_table_row .mx_table_logo img {
+        width: 0;
+        height: 0;
+    }
+
+    .mx_table_row .mx_table_logo {
+        width: 0;
+    }
+    .mx_table_vnz_spec {
+        padding-left: 0;
+        width: 56%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .mx_table_vnz_spec {
+        padding-left: 0;
+        width: 56%;
+        padding-right: 0;
+    }
+
+    .mx_table_vnz_spec p.mx_first_p{
+        font: 700 12px Fira Sans;
+        color: #238cbb;
+        padding: 22px 10px 0 0;
+    }
+    .mx_table_vnz_spec p.mx_second_p{
+        font: 500 10px Fira Sans;
+        color: #0c5b7c;
+        padding: 10px 0 7px 0;
+    }
+
+    .mx_table_vnz_spec p.mx_third_p{
+        font: 500 10px Fira Sans;
+        padding: 8px 0 10px 0;
+    }
+
+    .mx_table_protest{
+        width: 17%;
+        vertical-align: top;
+        padding-top: 22px;
+    }
+    .mx_protest{
+        width: 100%;
+        display: table;
+        text-align: center;
+    }
+    .mx_protest p.mx_protest_num{
+        font: bold 14px Fira Sans;
+        width: 100%;
+        display: inline-block;
+        line-height: normal;
+        vertical-align: middle;
+        padding-right: 0;
+    }
+    .mx_protest p.mx_protest_lud{
+        font: 500 10px Fira Sans;
+        width: 100%;
+        display: inline-block;
+        line-height: normal;
+        vertical-align: middle;
+    }
+
+
+    .mx_table_test_prof {
+        width: 20%;
+        vertical-align: top;
+        padding-top: 22px;
+    }
+    .mx_test_prof{
+        width: 100%;
+        display: table;
+        text-align: center;
+    }
+    .mx_test_prof p.mx_test_prof_lud{
+        font: 500 10px Fira Sans;
+        width: 100%;
+        display: inline-block;
+        line-height: normal;
+        vertical-align: middle;
+        padding: 0 24px 0 15px;
+    }
+    .mx_test_prof a.mx_test_prof_but{
+        font: 400 14px Play;
+        background-color: #ef3d31;
+        color: #FFFFFF;
+        padding: 7px;
+        display: inline-block;
+        line-height: normal;
+        vertical-align: middle;
+        width: 90%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-right: 0;
+    }
+
+    .iv_main .mx_tripplebutton {
+        background-color: #f1f1f1;
+        margin: 20px 0 40px 0;
+        padding: 8px 0;
+        text-align: center;
+    }
+    .iv_main .mx_tripplebutton a{
+        display: inline-block;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 15px;
+        background-color: #238cbb;
+        font-size: 18px;
+        font-family: "Play";
+        width: 90%;
+    }
+
+    .mx_button_wrap{
+        vertical-align: middle;
+        line-height: normal;
+        float: left;
+        width: 100%;
+        padding: 4px 0;
+    }
+}

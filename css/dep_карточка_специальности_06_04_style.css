@@ -1,0 +1,190 @@
+.iv_main .mx_spec_header{
+         padding: 0;
+     }
+.iv_main .mx_spec_header h3.mx_sred_zar {
+    font: bold 22px Fira Sans;
+    line-height: 1.2;
+    color: #0c5b7c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.iv_main .mx_spec_header h3.mx_sred_zar p {
+    color: rgb(0, 0, 0);
+    font: bold 14px Fira Sans;
+    line-height: 1.2;
+    display: inline;
+    margin-right: 7px;
+}
+.iv_main .mx_spec_header .mx_umov h3{
+    font: bold 16px Fira Sans;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.iv_main .mx_spec_header .mx_umov{
+    padding: 0;
+}
+.iv_main .mx_spec_header .mx_umov .mx_uslov{
+    float: left;
+    padding: 0;
+}
+.iv_main .mx_spec_header .mx_umov .mx_uslov h3{
+    font: bold 14px Fira Sans;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: rgb(0,0,0);
+    margin: 5px 0;
+    text-align: right;
+    padding: 0;
+    padding-right: 6px;
+}
+.iv_main .mx_spec_header .mx_umov .mx_uslov p{
+    font: 500 14px Fira Sans;
+    line-height: 1.2;
+    margin: 5px 0;
+    padding: 0;
+}
+.iv_main .mx_spec_vnz h3 {
+    margin-top: 30px;
+    margin-bottom: 9px;
+}
+table {
+    width: 100%;
+    background: transparent;
+    border-collapse: collapse;
+}
+
+.mx_spec_vnz tr.mx_table_header{
+    background-color: #f1f1f1;
+    border-bottom: 3px solid rgb(239, 61, 49);
+    height: 35px;
+}
+.mx_spec_vnz tr.mx_table_header td{
+    vertical-align: bottom;
+    padding-left: 20px;
+    padding-bottom: 3px;
+}
+.mx_spec_vnz tr.mx_table_header td p{
+    font: 500 14px Fira Sans;
+}
+
+
+.mx_table_row{
+    border-bottom: 1px solid #cac8c8;
+}
+
+.mx_table_row .mx_table_nazva p{
+    font: bold 16px Fira Sans;
+    color: #238cbb;
+    letter-spacing: 0.5px;
+}
+.mx_table_row td{
+    vertical-align: top;
+}
+.mx_table_row .mx_table_logo{
+    width: 9%;
+    text-align: center;
+    vertical-align: middle;
+}
+.mx_table_row .mx_table_logo img{
+    width: 50px;
+    height: 50px;
+}
+.mx_table_row .mx_table_nazva{
+    width: 33%;
+    padding: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.mx_table_row .mx_table_zno{
+    padding-right: 30px;
+    width: 27%;
+}
+.mx_table_ball, .mx_table_vart, .mx_table_zno{
+    padding: 15px 7px 15px 20px;
+}
+
+.mx_table_ball p, .mx_table_vart p{
+    font: 500 18px Fira Sans;
+}
+.mx_table_zno p{
+    font: 500 14px Fira Sans;
+    word-break: break-all;
+}
+.mx_table_ball p {
+    font-weight: bold;
+}
+
+
+.iv_main .mx_spec_footer{
+    margin-bottom: 45px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 760px) {
+    .mx_table_row .mx_table_nazva{
+        padding-left: 5px;
+    }
+    .mx_table_row .mx_table_zno{
+        padding-right: 15px;
+        width: auto;
+    }
+    .mx_table_row .mx_table_ball{
+        width: 22%;
+    }
+}
+@media screen and (max-width: 667px) {
+    .mx_table_row .mx_table_nazva{
+        padding: 5px 3px;
+    }
+    .mx_table_row .mx_table_ball , .mx_table_row .mx_table_vart, .mx_table_row .mx_table_zno{
+        padding: 0 3px;
+        vertical-align: middle;
+    }
+    .mx_table_row .mx_table_ball , .mx_table_row .mx_table_vart{
+        text-align: center;
+    }
+
+    .mx_spec_vnz tr.mx_table_header td{
+        padding-left: 3px;
+        padding-right: 3px;
+        text-align: center;
+    }
+    .mx_spec_vnz tr.mx_table_header td:nth-of-type(1){
+        padding-right: 0;
+        text-align: left;
+    }
+    .mx_spec_vnz tr.mx_table_header td:nth-of-type(4){
+        text-align: left;
+    }
+
+    .mx_table_row .mx_table_logo img{
+        width: 0;
+        height: 0;
+    }
+    .mx_table_row .mx_table_logo {
+        width: auto;
+    }
+
+}
+@media screen and (max-width: 480px) {
+
+    .mx_spec_vnz tr.mx_table_header td p{
+        font-size: 11px;
+    }
+    .mx_table_row .mx_table_nazva p, .mx_table_row .mx_table_zno p{
+        font-size: 12px;
+    }
+    .mx_table_row .mx_table_ball p, .mx_table_row .mx_table_vart p{
+        font-size: 14px;
+    }
+    .mx_table_row .mx_table_nazva{
+        padding: 5px 0;
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .iv_main .mx_spec_header h3.mx_sred_zar p {
+        margin-right: 40%;
+    }
+}

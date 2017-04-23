@@ -1,0 +1,94 @@
+
+.mx_prof_header, .mx_ZNO_strktr, .mx_ZNO_predm{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mx_table_legend{
+    padding: 0;
+}
+.mx_table_legend h3{
+    margin: 25px 0 15px 0;
+}
+table {
+    width: 100%;
+    background: transparent;
+    border-collapse: collapse;
+}
+.mx_ZNO_strktr tr.mx_table_header,.mx_ZNO_predm tr.mx_table_header {
+    background-color: #f1f1f1;
+    border-bottom: 3px solid rgb(239, 61, 49);
+    height: 35px;
+}
+.mx_ZNO_strktr tr.mx_table_header td,.mx_ZNO_predm tr.mx_table_header td {
+    vertical-align: bottom;
+    padding: 0 0 5px 0;
+    text-align: center;
+}
+.mx_ZNO_strktr .mx_table_row {
+    height: 60px;
+    border-bottom: 1px solid #cac8c8;
+}
+.mx_ZNO_strktr table p {
+    color: #2f2f2f;
+    font: 500 14px Fira Sans;
+}
+.mx_ZNO_strktr .mx_table_row td {
+    vertical-align: middle;
+    width: 25%;
+    text-align: center;
+}
+.mx_ZNO_strktr .mx_table_row td p{
+    font-size: 18px;
+}
+
+.mx_ZNO_predm{
+    margin-bottom: 60px;
+}
+.mx_ZNO_predm .mx_table_row {
+    border-bottom: 1px solid #cac8c8;
+}
+
+.mx_ZNO_predm table .mx_table_row td{
+    vertical-align: top;
+    padding: 15px;
+}
+
+.mx_ZNO_predm table .mx_zavd_predm , .mx_skladn_predm{
+    width: 16%;
+    text-align: center;
+}
+.mx_ZNO_predm table .mx_table_header td:nth-child(1), .mx_table_row .mx_nazva_predm{
+    text-align: left;
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+.mx_ZNO_predm table .mx_table_header td p{
+    line-height: 1;
+}
+
+.mx_nazva_predm h3 {
+    color: #238cbb;
+    margin: 14px 0 0 0;
+}
+
+.mx_ZNO_predm table .mx_table_header {
+    font-size: 14px;
+    font-family: "Fira Sans";
+    text-transform: uppercase;
+}
+
+.mx_ZNO_predm table td.mx_zavd_predm , .mx_ZNO_predm table td.mx_skladn_predm {
+    padding-top: 40px;
+}
+
+.mx_ZNO_predm table .mx_zavd_predm p, .mx_skladn_predm h2{
+    font: normal 24px Fira Sans;
+}
+.mx_ZNO_predm table .mx_skladn_predm h2{
+    color: #238cbb;
+}
+.mx_ZNO_predm table .mx_skladn_predm p{
+    font: 500 12px Fira Sans;
+}

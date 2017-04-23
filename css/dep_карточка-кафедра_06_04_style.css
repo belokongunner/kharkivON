@@ -1,0 +1,56 @@
+.iv_main .mx_VUZ_header p:first-of-type {
+    margin-top: 0;
+}
+
+.mx_kaf_spec ul{
+    list-style: disc;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.mx_kaf_spec ul li {
+    color: #238cbb;
+    font-size: 12pt;
+}
+.iv_main .mx_kaf_spec ul li p:first-of-type{
+    margin: 0;
+    padding: 3px;
+    font: 500 0.87em KelsonSans;
+}
+.mx_kaf_info{
+    margin-top: 25px;
+}
+.mx_kaf_info h2 {
+    color: #0c5b7c;
+    font: 700 1.19em KelsonSans;
+    text-transform: none;
+    padding: 5px;
+}
+.mx_kaf_test{
+    height: 85px;
+    width: 260px;
+    background-color: rgb(221, 74, 51);
+    font: 700 1.143em Play;
+    font-size: 16Pt;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.mx_kaf_test .mx_kaf_test_text {
+    font: 700 1.143em Play;
+    font-size: 16Pt;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 619px) {
+    .mx_kaf_test {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    td.mx_VUZ_dovidk, td.mx_VUZ_email, td.mx_VUZ_fax, td.mx_VUZ_www {
+        width: 40%;
+    }
+}

@@ -1,0 +1,98 @@
+.mx_spec_all {
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+
+.mx_spec_popular, .mx_prof_header{
+    padding: 0;
+}
+.mx_spec_popular h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.mx_spec_popular img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.mx_spec_all, .mx_spec_cheks_wrap, .mx_spec_checks{
+    padding:0;
+}
+
+
+@media (min-width: 992px){
+    .mx_spec_popular_single {
+        width: 17%;
+        padding: 0;
+    }
+}
+.mx_spec_popular_single .mx_spec_text_img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.8;
+    width: 100%;
+    height: 39.5%;
+    background-color: #fff;
+    overflow: hidden;
+    font: 500 14px AA Bebas Neue;
+    padding-top: 7px;
+}
+@media (max-width: 1160px){
+    .mx_spec_popular_single .mx_spec_text_img{
+        font-size: 13px;
+        padding-top: 4px;
+    }
+}
+@media (max-width: 991px) {
+    .mx_spec_popular_single .mx_spec_text_img {
+        font-size: 22px;
+        padding-top: 7px;
+    }
+    .iv_main .mx_spec_popular .mx_spec_popular_single{
+        margin: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .mx_spec_popular_single .mx_spec_text_img {
+        font-size: 17px;
+        padding-top: 7px;
+    }
+}
+@media (max-width: 480px) {
+    .mx_spec_popular_single .mx_spec_text_img {
+        font-size: 14px;
+        padding-top: 7px;
+    }
+}
+@media (max-width: 425px) {
+    .mx_spec_popular_single{
+        width: 100%;
+        padding: 0;
+    }
+    .mx_spec_popular{
+        padding: 0;
+    }
+    .mx_spec_popular_single .mx_spec_text_img {
+        font-size: 22px;
+        padding-top: 7px;
+    }
+}
+
+.mx_spec_popular_single:nth-of-type(1), .mx_spec_popular_single:nth-of-type(2),
+.mx_spec_popular_single:nth-of-type(3), .mx_spec_popular_single:nth-of-type(4), .mx_spec_popular_single:nth-of-type(5) {
+    margin-bottom: 2%;
+}
+.mx_spec_popular_single:nth-of-type(3), .mx_spec_popular_single:nth-of-type(4),
+.mx_spec_popular_single:nth-of-type(8), .mx_spec_popular_single:nth-of-type(9){
+    margin-right: 3.75%;
+}
+.mx_spec_popular_single:nth-of-type(2), .mx_spec_popular_single:nth-of-type(7){
+    margin-right: 3.75%;
+    margin-left: 3.75%;
+}

@@ -1,0 +1,239 @@
+.mx_pod_kurs, .mx_vidkr_dver{
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+
+.mx_pod_kurs{
+    border-bottom: 1px solid #cac8c8;
+    margin-bottom: 20px;
+}
+
+b{
+    font-weight: bold;
+}
+.mx_table_pod_vart p b{
+    font-size: 18px;
+}
+table {
+    margin-top: 25px;
+    width: 100%;
+    background: transparent;
+    border-collapse: collapse;
+}
+table p{
+    font: 500 14px Fira Sans;
+}
+.mx_table_header div {
+    width: 20%;
+    display: table-cell;
+    text-align: center;
+    padding-bottom: 5px;
+    vertical-align: bottom;
+    padding-top: 5px;
+}
+.mx_table_header div:nth-of-type(1) {
+    width: 60%;
+    display: table-cell;
+    padding: 10px 0 5px 0;
+    padding-left: 20px;
+    text-align: left;
+}
+.mx_table_pod .mx_table_pod_vart {
+    padding-right: 15px;
+}
+.mx_table_header {
+    display: table;
+    background-color: #f1f1f1;
+    border-bottom: 3px solid rgb(239, 61, 49);
+    width: 100%;
+}
+
+@media (max-width: 425px){
+    .mx_pod_kurs .mx_table_header td {
+        text-align: center;
+        padding-left: 0;
+    }
+    .mx_pod_kurs .mx_table_header td p {
+        font-size: 12px;
+    }
+}
+
+.mx_table_pod{
+    display: table;
+    width: 100%;
+    border-top: 1px solid #cac8c8;
+}
+
+.mx_pod_kurs div:nth-of-type(2) {
+    border-top: none;
+    margin-top: 0;
+}
+
+.mx_table_pod_nazva_vnz{
+    width: 57%;
+    display: table-cell;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.mx_table_pod_nazva_kurs {
+    width: 60%;
+    display: table-cell;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.mx_table_pod_poch, .mx_table_pod_vart{
+    text-align: center;
+    vertical-align: middle;
+    width: 19%;
+    display: table-cell;
+}
+.mx_table_pod_ac .mx_table_pod_poch, .mx_table_pod_ac .mx_table_pod_vart{
+    width: 20%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.mx_table_pod_nazva_vnz label {
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: rgb(239, 61, 49);
+    float: left;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    font-family: "Fira Sans";
+    height: 25px;
+    width: 100px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.mx_table_pod_ac .mx_table_pod_nazva_kurs p{
+    font: bold 14px Fira sans;
+    color: #013e58;
+}
+.mx_table_row.mx_table_pod_ac:nth-last-of-type(1) {
+}
+.mx_table_row.mx_table_pod_ac {
+    display: table;
+    padding: 0 15px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+.mx_table_bordered .mx_table_pod_nazva_kurs {
+    border-bottom: 1px solid #cac8c8;
+    padding-bottom: 8px;
+}
+.mx_table_pod_nazva_vnz p {
+    font: bold 16px Fira Sans;
+    color: #238cbb;
+}
+.mx_table_bordered .mx_table_pod_poch {
+    border-bottom: 1px solid #cac8c8;
+}
+.mx_table_bordered .mx_table_pod_vart {
+    border-bottom: 1px solid #cac8c8;
+}
+
+
+
+.mx_pod_kurs input{
+    display: none;
+}
+
+
+.mx_article{
+    margin-bottom: 15px;
+    padding-left: 20px;
+    margin-top: -1px;
+    overflow: hidden;
+    max-height: 0px;
+    position: relative;
+    z-index: 10;
+    -webkit-transition: max-height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -moz-transition: max-height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -o-transition: max-height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -ms-transition: max-height 0.3s ease-in-out, box-shadow 0.6s linear;
+    transition: max-height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+input#ac-1:checked ~ div.mx_article{
+    -webkit-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -moz-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -o-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -ms-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+}
+input#ac-2:checked ~ div.mx_article{
+    -webkit-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -moz-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -o-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -ms-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+}
+input#ac-3:checked ~ div.mx_article{
+    -webkit-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -moz-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -o-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -ms-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+}
+input#ac-4:checked ~ div.mx_article {
+    -webkit-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -moz-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -o-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -ms-transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+    transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear;
+}
+
+input#ac-1:checked ~ div.mx_article1{
+    max-height: 172px;
+    margin-top: 7px;
+}
+input#ac-2:checked ~ div.mx_article2{
+    max-height: 172px;
+    margin-top: 7px;
+}
+input#ac-3:checked ~ div.mx_article3{
+    max-height: 172px;
+    margin-top: 7px;
+}
+input#ac-4:checked ~ div.mx_article4 {
+    max-height: 172px;
+    margin-top: 7px;
+}
+.mx_checked {
+    background-color: #0c5b7c !important;
+}
+
+
+@media screen and (max-width: 425px) {
+    .mx_pod_kurs p {
+        font: 500 12px Fira Sans;
+    }
+    .mx_table_pod_nazva_vnz p {
+        font: bold 12px Fira Sans;
+    }
+    .mx_table_pod_vart p b {
+        font-size: 12px;
+    }
+    .mx_table_header div {
+        width: 25%;
+    }
+    .mx_table_header div:nth-of-type(1) {
+        padding-left: 5px;
+    }
+    .mx_table_pod_nazva_vnz {
+        padding-left: 5px;
+    }
+    .mx_table_pod .mx_table_pod_vart {
+        padding-right: 5px;
+    }
+    .mx_table_row.mx_table_pod_ac {
+        padding-right: 5px;
+    }
+    .mx_table_pod_nazva_kurs {
+        width: 54%;
+    }
+
+}
